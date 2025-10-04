@@ -23,3 +23,7 @@ a:hover {
 .home_title:hover {
     text-decoration: none;
 }
+
+p {
+    margin-bottom: 40px;
+}
