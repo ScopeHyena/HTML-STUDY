@@ -3,7 +3,7 @@ h1 {
 }
 
 a {
-    color: dimgray;
+    color: green;
     text-decoration: none;
 }
 
@@ -11,9 +11,13 @@ a:hover {
     text-decoration: underline;
 }
 
-.current {
+#current {
     color: red;
     font-weight: bold;
+}
+
+.list {
+    color: dimgray;
 }
 
 .home_title {
