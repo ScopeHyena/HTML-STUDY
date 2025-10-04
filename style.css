@@ -1,4 +1,25 @@
+h1 {
+    font-size: 54px;
+}
+
 a {
     color: dimgray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    color: red;
+    font-weight: bold;
+}
+
+.home_title {
+    color: cornflowerblue;
+}
+
+.home_title:hover {
     text-decoration: none;
 }
