@@ -33,6 +33,14 @@ body {
     color: cornflowerblue;
 }
 
+pre {
+    margin-bottom: 15px;
+    background-color: whitesmoke;    
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 h1 {
     font-size: 54px;
     border-bottom: 1px solid gray;
@@ -55,4 +63,44 @@ p {
 
 #article {
     padding-left: 15px;
+}
+
+
+@media(width < 800px) {
+    #grid {
+        display: block;
+    }
+
+    #grid ul.contents {
+        list-style-type: none;
+        border-right: none;
+        padding: 40px;
+        width: 180px;
+        margin: 30px;
+        border: 1px solid dimgray;
+        background-color: lightgray;
+    }
+
+    h1 {
+        font-size: 54px;
+        text-align: center;
+        border-bottom: none;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #YouTube {
+        width: 100%;
+        align-content: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
 }

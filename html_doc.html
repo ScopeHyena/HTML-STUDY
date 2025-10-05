@@ -22,8 +22,8 @@
             <h3>개요</h3>
 
             <p> 
-                <iframe width="50%" height="414px" src="https://www.youtube.com/embed/it1rTvBcfRg?si=wsqOo3H2NBEMQkxr" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 20px;"></iframe> <br>
-                <a href="https://www.w3.org/TR/2011/WD-html5-20110405/">하이퍼텍스트 마크업 언어(HTML)</a>는 <strong><u>웹 페이지</u>와 <u>웹 애플리케이션</u>을 만드는 데 사용하는</strong> 표준 마크업 언어이다. 웹 브라우저는 웹 서버 또는 로컬 저장소에서 HTML 문서를 수신하여 멀티미디어 웹 페이지로 렌더링한다. HTML은 웹 페이지의 구조를 의미론적으로 설명하며 원래 문서 모양에 대한 단서가 포함되어 있다.
+                <iframe id="YouTube" width="70%" height="414px" src="https://www.youtube.com/embed/it1rTvBcfRg?si=wsqOo3H2NBEMQkxr" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 20px;"></iframe> <br>
+                <a href="https://www.w3.org/TR/2011/WD-html5-20110405/">하이퍼텍스트 마크업 언어(HTML)</a>는 <strong><u>웹 페이지</u>와 <u>웹 애플리케이션</u>을 만드는 데 사용하는</strong> 표준 마크업 언어이다. 웹 브라우저는 웹 서버 또는 로컬 저장소에서 HTML 문서를 수신하여 멀티미디어 웹 페이지로 렌더링한다. HTML은 웹 페이지의 구조를 의미론적으로 설명하며 원래 문서 모양에 대한 단서가 포함되어 있다. <br>
                 <img src="coding.png" alt="A Computer screen with Code Editor, generated with AI." width="60%">
             </p> 
 
@@ -36,8 +36,8 @@
             <p>
                 제목을 표시하는 태그이다. <code>h</code> 뒤에 붙는 숫자가 커질수록 우선순위가 더 작아지는 제목이다. <br>
                 <pre><code>
-                &lt;h1&gt;This is Header 1.&lt;/h1&gt;
-                &lt;h4&gt;This is Header 4.&lt;/h4&gt;
+&lt;h1&gt;This is Header 1.&lt;/h1&gt;
+&lt;h4&gt;This is Header 4.&lt;/h4&gt;
                 </code></pre>
                 <p>
                     <h1>This is Header 1.</h1>
@@ -50,7 +50,7 @@
                 텍스트에 줄바꿈을 넣어주는 태그이다. <br>
                 닫는 태그가 없는 단독 사용 태그이다. <br>
                 <pre><code>
-                This is Text. &lt;br&gt; This is new line Text.
+This is Text. &lt;br&gt; This is new line Text.
                 </code></pre>
                 <p>
                     This is Text. <br> This is new line Text.
@@ -61,13 +61,12 @@
             <p>
                 단락을 만들어주는 태그이다. <code>&lt;p&gt; &lt;/p&gt;</code> 내부에 넣은 텍스트가 한 단락이 되며, p끼리는 적당히 간격이 띄워진다. <br>
                 <pre><code>
-                &lt;p&gt;
-                    This is first paragraph.
-                &lt;/p&gt;
-                <br>
-                &lt;p&gt;
-                    This is second paragraph.
-                &lt;/p&gt;
+&lt;p&gt;
+    This is first paragraph.
+&lt;/p&gt;
+&lt;p&gt;
+    This is second paragraph.
+&lt;/p&gt;
                 </code></pre>
                 <p>
                     <p>
@@ -85,7 +84,7 @@
                 이미지를 삽입하는 태그이다. <code>src=""</code>  <strong>속성</strong>을 이용해 어떤 이미지를 넣을 것인지 지정할 수 있다. <br>
                 닫는 태그가 없는 단독 사용 태그이다. <br>
                 <pre><code>
-                &lt;img src="coding.png" width="50%"&gt;
+&lt;img src="coding.png" width="50%"&gt;
                 </code></pre>
                 <img src="coding.png" width="50%">
             </p>
@@ -94,14 +93,13 @@
             <p>
                 리스트를 만드는 태그 모음이다. 리스트 항목은 <code>&lt;li&gt; &lt;/li&gt;</code>를 사용하며, 이 리스트들을 묶어주는 태그로는 <code>&lt;ol&gt; &lt;/ol&gt;</code>과 <code>&lt;ul&gt; &lt;/ul&gt;</code>을 사용한다. <br>
                 <pre><code>
-                &lt;ol&gt;
-                    &lt;li&gt;This is the list item.&lt;/li&gt;
-                    &lt;li&gt;The Ordered List.&lt;/li&gt;
-                &lt;/ol&gt;
-                &lt;ul&gt;
-                    &lt;li&gt;This is the list item.&lt;/li&gt;
-                    &lt;li&gt;The Unordered List.&lt;/li&gt;
-                &lt;/ul&gt;
+&lt;ol&gt; <br>
+    &lt;li&gt;This is the list item.&lt;/li&gt; <br>
+    &lt;li&gt;The Ordered List.&lt;/li&gt; <br>
+&lt;/ol&gt;
+&lt;ul&gt;
+    &lt;li&gt;This is the list item.&lt;/li&gt;
+    &lt;li&gt;The Unordered List.&lt;/li&gt;&lt;/ul&gt;
                 </code></pre>
                 <p>
                     <ol>
@@ -119,7 +117,7 @@
             <p>
                 웹 페이지의 제목을 표시하는 태그이다. <br>
                 <pre><code>
-                &lt;title&gt;WEB PAGE&lt;/title&gt;
+&lt;title&gt;WEB PAGE&lt;/title&gt;
                 </code></pre>
                 <img src="title_tag_ex.jpeg" alt="title 태그를 적용한 웹 페이지 모습" width="60%">
             </p>
@@ -128,7 +126,7 @@
             <p>
                 특정 문자열에 링크를 걸어주는 태그이다. <br>
                 <pre><code>
-                &lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
+&lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
                 </code></pre>
                 <a href="https://www.google.com/">Google</a>
             </p>
@@ -141,17 +139,17 @@
                 style 태그는 head 영역에서 사용한다. <br>
                 이 때 속성은 해당하는 모든 태그에 대해서 바뀌게 된다. <br>
                 <pre><code>
-                &lt;style&gt;
-                a {
-                    color: red;
-                }
-                &lt;/style&gt;
+&lt;style&gt;
+a {
+    color: red;
+}
+&lt;/style&gt;
                 </code></pre>
 
                 <h5>style 속성</h5>
                 태그 안에 포함되는 속성으로써, 이 때는 속성이 지정된 태그에 한해서만 적용이 된다. <br>
                 <pre><code>
-                &lt;a href="https://naver.com/" style="color: skyblue"&gt;NAVER&lt;/a&gt;
+&lt;a href="https://naver.com/" style="color: skyblue"&gt;NAVER&lt;/a&gt;
                 </code></pre>
 
                 <a href="https://naver.com" style="color: skyblue">NAVER</a>
