@@ -46,6 +46,30 @@
           <img src="boxmodel.png" alt="상자 모델" /> <br />
           border를 중심으로, 안쪽 영역이 padding, 바깥쪽 영역이 margin이다. <br />
         </p>
+
+        <h3>반응형 웹</h3>
+        <p><a href="https://en.wikipedia.org/wiki/Responsive_web_design">반응형 웹 디자인(RWD)</a>은 사용성과 만족도를 보장하기 위해 최소에서 최대 디스플레이 크기까지 다양한 장치와 창 또는 화면 크기에서 웹 페이지를 잘 렌더링하는 것을 목표로 하는 웹 디자인 접근 방식이다.</p>
+        <p>반응형 웹 디자인은 <code>@media</code> 스코프를 이용하여 처리하며, 대응할 화면의 사이즈를 파라미터로 넘기고, 해당 스코프에서 보일 예외적인 스타일시트를 정의하면 된다.
+
+            <pre><code>
+...
+#grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+
+#article {
+    padding-left: 15px;
+}
+
+@media(width < 800px) {
+    #grid {
+        display: block;
+    }
+    ...
+}
+            </code></pre>
+        </p>
       </div>
     </div>
   </body>
