@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>WEB - CSS</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <h1><a href="index.html" class="home_title">WEB Basic</a></h1>
-    <ul>
+    <div id="grid">
+      <ul class="contents">
         <li><a href="html_doc.html" class="list">HTML</a></li>
         <li><a href="css_doc.html" class="list" id="current">CSS</a></li>
         <li><a href="js_doc.html" class="list">Javascript</a></li>
         <li><a href="deploy_doc.html" class="list">Deployment</a></li>
-    </ul>
+      </ul>
 
-    <h2>CSS</h2>
+      <div id="article">
+        <h2>CSS</h2>
 
-    <h3>개요</h3>
+        <h3>개요</h3>
 
-    <p> 
-       캐스케이딩 스타일 시트(CSS)는 HTML 또는 XML(SVG, MathML 또는 XHTML과 같은 XML 방언 포함)과 같은 마크업 언어로 작성된 문서의 표시 및 스타일을 지정하는 데 사용되는 스타일 시트 언어이다. CSS는 HTML 및 JavaScript와 함께 월드와이드웹의 초석 기술이다. 
-    </p> 
+        <p>캐스케이딩 스타일 시트(CSS)는 HTML 또는 XML(SVG, MathML 또는 XHTML과 같은 XML 방언 포함)과 같은 마크업 언어로 작성된 문서의 표시 및 스타일을 지정하는 데 사용되는 스타일 시트 언어이다. CSS는 HTML 및 JavaScript와 함께 월드와이드웹의 초석 기술이다.</p>
 
-    <p>
-        CSS는 레이아웃, 색상, 글꼴 등 콘텐츠와 프레젠테이션을 분리할 수 있도록 설계되었다. 이렇게 분리하면 프레젠테이션에 신경 쓰지 않고 콘텐츠를 작성할 수 있어 콘텐츠 접근성이 향상되고, 프레젠테이션 특성 지정에 더 유연하고 제어할 수 있으며, 여러 웹 페이지에서 관련 CSS를 별도의 .css 파일에 지정하여 서식을 공유할 수 있으므로 콘텐츠 구조의 복잡성과 반복을 줄일 수 있고 .css 파일을 캐시하여 파일과 해당 서식을 공유하는 페이지 간의 페이지 로드 속도를 향상시킬 수 있다.
-    </p>
+        <p>CSS는 레이아웃, 색상, 글꼴 등 콘텐츠와 프레젠테이션을 분리할 수 있도록 설계되었다. 이렇게 분리하면 프레젠테이션에 신경 쓰지 않고 콘텐츠를 작성할 수 있어 콘텐츠 접근성이 향상되고, 프레젠테이션 특성 지정에 더 유연하고 제어할 수 있으며, 여러 웹 페이지에서 관련 CSS를 별도의 .css 파일에 지정하여 서식을 공유할 수 있으므로 콘텐츠 구조의 복잡성과 반복을 줄일 수 있고 .css 파일을 캐시하여 파일과 해당 서식을 공유하는 페이지 간의 페이지 로드 속도를 향상시킬 수 있다.</p>
 
-    <h3>텍스트 꾸미기 관련</h3>
-    <p>
-        <code style="font-size: 20px">font-size: 20px;</code> <br>
-        <code style="font-weight: bold;">font-weight: bold;</code> <br>
-        <code style="text-decoration: underline;">text-decoration: underline;</code> <br>
-    </p>
+        <h3>텍스트 꾸미기 관련</h3>
+        <p>
+          <code style="font-size: 20px">font-size: 20px;</code> <br />
+          <code style="font-weight: bold">font-weight: bold;</code> <br />
+          <code style="text-decoration: underline">text-decoration: underline;</code> <br />
+        </p>
 
-    <h3>색상 관련</h3>
-    <p>
-        <code style="color: green;">color: green;</code> <br>
-    </p>
-</body>
+        <h3>색상 관련</h3>
+        <p><code style="color: green">color: green;</code> <br /></p>
+      </div>
+    </div>
+  </body>
 </html>
