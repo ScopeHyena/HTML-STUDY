@@ -36,10 +36,14 @@ a:hover {
 
 pre {
     margin-bottom: 15px;
+    margin-right: 25px;
     background-color: whitesmoke;    
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 h1 {
